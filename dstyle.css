@@ -1,0 +1,78 @@
+
+ 
+.container{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+
+}
+.container1{
+    background-color:antiquewhite;
+    width: 100%;
+}
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+.container1 ul li{
+   display: inline-block;
+   padding: 0 60px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container1 ul li a{
+    text-decoration: none; 
+}
+.container1 ul li:hover{
+    background-color:white;
+    border-radius: 10px;
+
+}
+.submenu1{
+    display: none;
+}
+.submenu2 {
+    display: none;
+}
+.container1 ul li:hover .submenu1{
+    display:block;
+    position: absolute;
+    background-color:aquamarine;
+    padding: 20px;
+    height: 20%;
+    width: 15%;
+    right: 170px;
+    
+}
+.container1 ul li:hover .submenu2{
+    display:flex;
+    position: absolute;
+    background-color:aquamarine;
+    padding: 20px;
+    height: 20%;
+    width: 15%;
+    right: 10px;
+}
+.container1 ul li:hover .submenu1 ul li {
+    padding: 20px;
+}
+.container1 ul li:hover .submenu2 ul li {
+    padding: 20px;
+}
+.container1 ul li:hover .submenu1 ul li a{
+    color:blue;
+}
+.container1 ul li:hover .submenu2 ul li a{
+    color:blue;
+}
+.container3{
+    text-align: center;
+    padding: 50px;
+    font-family:cursive;
+    font-size: larger;
+}

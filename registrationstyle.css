@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+.whole{
+   padding: 2rem 1rem 0 8rem; 
+   width: 50%;
+   background-color: antiquewhite;
+   position:absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+
+}
+input[type=text],input[type=email],input[type=password]{
+    border:1px solid white;
+    width: 75%;
+    margin: 2px 0 20px 0;
+    padding:15px;
+}
+input[type=submit]{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    width: 20%;
+    margin: 15px 0 20px 140px;
+}
+h1{
+    font-size: 200%;
+}

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.kiran{
+    width: 100%;
+    height:100vh;
+    background-image: url(back1.jpg);
+    background-position: center;
+    background-size:cover;
+    position:relative;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+nav img{
+    width: 3.5in;
+    height: 1in;
+}
+.kumar ul li{
+list-style: none;
+display:inline-block;
+padding: 8px 10px;
+position: relative;
+} 
+.kumar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 120%;
+}
+.active,.kumar a:hover{
+    border-radius: 20px;
+    padding: 10px 5px;
+    background-color:red;
+}
+.kanteti h1{
+    font-size: 45px;
+}
+.kanteti{
+    width: 91%;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:white;
+}
+@media(max-width: 700px){
+    .kanteti h1{
+        font-size: 10px;
+}
+.kanteti{
+    width: 86%;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:white;
+}
+nav img{
+    width: 1.5in;
+    height: 0.6in;
+    padding-right: 2cm;
+    padding-bottom: 4.6cm;
+}
+.kumar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+}
+.kumar{
+padding-bottom: 1.6cm;
+padding-left: 2.1cm;
+}
+}
+@media(max-width:700px){
+.kumar ul li{
+    padding: 4px 6px;
+}
+.kumar a:hover{
+    text-decoration: underlines;
+}
+}
